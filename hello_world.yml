@@ -4,5 +4,7 @@
     - name: Hello Message
       debug:
         msg: "Hello World!"
-        badparam: yes
+        
+    - name: Borked
+      bork: True
 
