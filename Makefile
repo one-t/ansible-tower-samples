@@ -1,4 +1,4 @@
 lint:
-	ansible-lint hello_world.yml 2>&1
+	ansible-lint --nocolor hello_world.yml
 	
 test: lint
