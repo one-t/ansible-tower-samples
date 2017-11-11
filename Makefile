@@ -1,4 +1,4 @@
 lint:
-	ansible-lint hello-world.yml
+	ansible-lint hello_world.yml
 	
 test: lint
