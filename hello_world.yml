@@ -2,6 +2,7 @@
   hosts: all
   tasks:
     - name: Hello Message
-       debug:
+      debug:
         msg: "Hello World!"
+        badparam: yes
 
