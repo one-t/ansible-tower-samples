@@ -4,3 +4,7 @@
     - name: Hello Message
       debug:
         msg: "Hello World!"
+        
+
+    - name: Create lol directory
+      command: mkdir lol
