@@ -7,4 +7,5 @@
         
 
     - name: Create lol directory
-      command: mkdir lol
+      debug:
+        msg: "noot"
